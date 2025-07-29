@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/main"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".SecondActivity">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SecondActivity"-->
+<!--        android:textSize="32sp"-->
+<!--        android:layout_gravity="center"/>-->
+<!--</FrameLayout>-->
+
+
+
+    <!-- activity_second.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center">
+
+<TextView
+    android:id="@+id/status_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="○の番です"
+    android:textSize="18sp" />
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:orientation="horizontal">
+
+    <Button android:id="@+id/button_0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+</GridLayout>
+
+<Button
+    android:id="@+id/reset_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="リセット" />
+</LinearLayout>
